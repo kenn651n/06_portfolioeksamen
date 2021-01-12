@@ -1,0 +1,419 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#first_section {
+    background-image: url(billeder/Background4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    max-width: none;
+    width: 100%;
+    height: 92vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.logo a {
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo li {
+    list-style: none;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* -------------------- Clouds ----------------------*/
+
+#Cloud_container {
+    position: absolute;
+}
+
+#Cloud_sprite {
+    background-image: url(Clouds/Cloud1.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 6vw;
+}
+
+#Cloud_container2 {
+    position: absolute;
+}
+
+#Cloud_sprite2 {
+    background-image: url(Clouds/Cloud2.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 5vw;
+
+}
+
+#Cloud_container3 {
+    position: absolute;
+}
+
+#Cloud_sprite3 {
+    background-image: url(Clouds/Cloud3.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 6vw;
+}
+
+#Cloud_container4 {
+    position: absolute;
+}
+
+#Cloud_sprite4 {
+    background-image: url(Clouds/Cloud1.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 6vw;
+}
+
+#Cloud_container5 {
+    position: absolute;
+}
+
+#Cloud_sprite5 {
+    background-image: url(Clouds/Cloud2.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 5vw;
+}
+
+#Cloud_container6 {
+    position: absolute;
+}
+
+#Cloud_sprite6 {
+    background-image: url(Clouds/Cloud3.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 6vw;
+
+}
+
+#Cloud_container7 {
+    position: absolute;
+    cursor: pointer;
+
+}
+
+#Cloud_sprite7 {
+    background-image: url(Clouds/Forside_knap.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 6vw;
+}
+
+#Cloud_container8 {
+    position: absolute;
+    cursor: pointer;
+
+}
+
+#Cloud_sprite8 {
+    background-image: url(Clouds/Om_knap.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 6vw;
+}
+
+#Cloud_container9 {
+    position: absolute;
+    cursor: pointer;
+}
+
+#Cloud_sprite9 {
+    background-image: url(Clouds/Portfolie_knap.svg);
+    background-size: cover;
+    width: 10vw;
+    height: 6vw;
+}
+
+#Cloud_container10 {
+    position: absolute;
+    cursor: pointer;
+
+}
+
+#Cloud_sprite10 {
+    background-image: url(Clouds/Forside_knap.svg);
+    background-size: cover;
+    width: 20vw;
+    height: 12vw;
+}
+
+#Cloud_container11 {
+    position: absolute;
+    cursor: pointer;
+
+}
+
+#Cloud_sprite11 {
+    background-image: url(Clouds/Om_knap.svg);
+    background-size: cover;
+    width: 20vw;
+    height: 12vw;
+}
+
+#Cloud_container12 {
+    position: absolute;
+    cursor: pointer;
+}
+
+#Cloud_sprite12 {
+    background-image: url(Clouds/Portfolie_knap.svg);
+    background-size: cover;
+    width: 20vw;
+    height: 12vw;
+}
+
+#clouds2 {
+    display: none;
+}
+
+/* ----------------- Positions---------------------- */
+
+.pos {
+    top: 10vw;
+    left: 10vw;
+}
+
+.pos2 {
+    top: 20vw;
+    left: 30vw;
+}
+
+.pos3 {
+    top: 14vw;
+    left: 69vw;
+}
+
+.pos4 {
+    top: 14vw;
+    left: 95vw;
+}
+
+.pos5 {
+    top: 9vw;
+    left: 47vw;
+}
+
+.pos6 {
+    top: 25vw;
+    left: -3vw;
+}
+
+.pos7 {
+    top: 35vw;
+    left: 20vw;
+}
+
+.pos8 {
+    top: 35vw;
+    left: 45vw;
+}
+
+.pos9 {
+    top: 35vw;
+    left: 70vw;
+}
+
+.pos10 {
+    top: 20vw;
+    left: 40vw;
+}
+
+.pos11 {
+    top: 40vw;
+    left: 40vw;
+}
+
+.pos12 {
+    top: 60vw;
+    left: 40vw;
+}
+
+/* ----------------- Animation --------------------- */
+
+.slide {
+    animation: slide_kf;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+@keyframes slide_kf {
+    0% {
+        transform: translatex(0) rotate(0deg);
+    }
+
+    25% {
+        transform: translatex(-10vw) rotate(-10deg);
+    }
+
+    50% {
+        transform: translatex(10vw) rotate(10deg);
+
+    }
+
+    75% {
+        transform: translatex(-10vw) rotate(-10deg);
+
+    }
+
+    100% {
+        transform: translatex(0vw) rotate(0deg);
+    }
+}
+
+.slide2 {
+    animation: slide2_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: ease;
+}
+
+@keyframes slide2_kf {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .nav-links {
+        width: 50%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #clouds {
+        display: none;
+    }
+
+    #clouds2 {
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translatex(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 100000;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-7.5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(+45deg) translate(-7.5px, -6px);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

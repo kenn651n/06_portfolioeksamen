@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oberes</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">🠕</button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+
+    <header>
+
+        <nav>
+            <div class="logo">
+                <li>
+                    <a href="index.html">Oberes</a>
+                </li>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Forside</a>
+                </li>
+                <li>
+                    <a href="om.html">Om mig</a>
+                </li>
+                <li>
+                    <a href="Portfolio.html">Portfolie</a>
+                </li>
+
+
+            </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="first_section">
+
+            <h2>Tema 2 - Grundlæggende HTML</h2>
+
+            <div class="section_wrapper">
+
+                <div class="col">
+                    <h3>Responsive site V2</h3>
+                    <br>
+                    <p>I tema 2 skulle vi arbejde med dette responsive site. Her lærte jeg hvordan man bruger diverse hjælpemidler som moodboard, styletile og wireframe. Her fik jeg udleveret stilenarten "videogame design".
+                        <br><br>
+                        Responsivt design betyder, at designet skal kunne tilpasse sig skærmstørrelsen, og se anderledes ud fra desktop og mobil. Hvilket vil sige at denne side er responsiv.
+                        <br><br>
+                        For mig har denne opgave været vigtig, for at ligge grundlaget for hvordan man opbygger et website og hvor vigtig planlægning er, før man begynder at kode det originale website.
+                        <br><br>
+                        Efter denne forberedningsprocessen med lære om en multimedie designers værktøjskasse, begyndte jeg at programmere websitet i HTML og CSS. Og det var her mine HTML og CSS egenskaber blev født.
+
+                    </p>
+                </div>
+
+                <div class="col">
+                    <h3> Responsive site</h3>
+                    <img src="billeder/Responsivesite_web.png" alt="Responsivesite">
+
+                    <img src="billeder/Responsivesite_mbile.png" alt="Responsivesite">
+                    <a href="http://oberes.one/kea/02_web/04_responsive/Responsive_site_v2/index.html"> Gå til Responsivesite_V2</a>
+                    <br>
+                    <a href="http://oberes.one/kea/02_web/04_responsive/Responsive_site_v2/styletile.html"> Gå til Styletile_V2</a>
+
+                </div>
+
+                <div class="col">
+                    <h3>Wireframe</h3>
+
+                    <embed src="pdf/02_01_03_content_til_dit_website_Kenneth_oberespetersen.pdf" type="application/pdf" width=100% height=650px>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section id="second_section">
+
+            <h2>Tema 3 - Grundlæggende UX</h2>
+            <div class="section_wrapper">
+                <div class="col">
+                    <h3>idé</h3>
+                    <br>
+                    <p>I denne opgave arbejdede jeg med en idé til en webshop der arbejder med t-shirts.
+                        <br><br>
+                        Temaets primære fokus var forståelse af emnets teori. Der skulle arbejdes med en række discipliner for forståelse af en god brugeroplevelse. Til dette blev der brugt researchmetoder for at forstå user behaviours, user needs og users motivation.
+
+                        <br><br>
+                        Efter insamling af kvalitativ og kvantitativ data begyndte idéfasen. Her fandt jeg et tema til min side og lavede sketches.
+                    </p>
+                </div>
+                <div class="col"> <img src="billeder/ide.png" alt="idé til t-shop"> </div>
+            </div>
+
+
+        </section>
+        <section id="second_section2">
+
+            <h2>Tema 3 - Grundlæggende UX</h2>
+            <div class="section_wrapper">
+                <div class="col">
+                    <h3>Endelig Prototype</h3>
+                    <br>
+                    <p>Udfra idé opgaven skulle jeg lave en prototype af websitet i Adobe XD. For at løse denne opgave er det blevet brugt AI, UX og UI for at udføre en hifi prototype.
+                        <br><br>
+                        For at udføre dette, anvendte jeg metoder fra tema 2 ved at bl.a. at lave moodboards, styletiles og producerede en wireframe, for at give et overblik af hvordan mit slutprodukt nogenlunde skulle se ud.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <img src="billeder/Endelig_prototype.png" alt="Endelig prototype">
+                    <a href="https://xd.adobe.com/view/adcd3542-d4de-4ac3-997d-52cfaa35d500-f89e/">Link til Endelig prototype.</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="second_section3">
+
+            <h2>Tema 3 - Grundlæggende UX</h2>
+            <div class="section_wrapper">
+                <div class="col">
+                    <h3>Pitch</h3>
+                    <br>
+                    <p>
+                        I denne pitch skulle jeg præsentere min problemstilling af at skabe en online t-shirt forretning, og prototypen jeg var kommet frem til. Det er vigtigt at pitche de konklusioner man har lavet ud fra ens research og sælger sine produkter til den målgruppe man går efter.
+                        <br><br>
+                        I tema 3 lærte vi en række UX researchmetoder; desk research, observation, interview. tænke højt test og The 5 act interview. Ud fra at bruge disse tests, kunne jeg konkludere hvilke komplikationer der kunne opstå i brugeroplevelsen. Herfra kunne jeg gå tilbage til min prototype og finpudse brugerrejsen.
+                        <br><br>
+
+
+                    </p>
+                </div>
+
+                <div class="col">
+                    <img src="billeder/Pitch.png" alt="">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="third_section">
+
+            <h2>Tema 4 - Animation</h2>
+            <div class="section_wrapper">
+                <div class="col">
+                    <h3>Assetliste og designdokumentation</h3>
+                    <br>
+                    <p>I denne opgave skulle jeg rentegne alle mine UI-elementer, baggrunde og start/slutskærme til mit animerede spil. Dette er herefter sat ind i en assetliste og i designdokumentationen.
+                        <br><br>
+                        I denne opgave lærte jeg at gøre brug af Adobe Illustrator, og hvordan man udvikler sine idéer til animeret grafik.
+
+                        <br><br>
+                        Jeg fik også gjort brug af teknikker vi brugte i tema 2, f.eks. styletile og moodboard og hvordan man kan udvide dette til et mere overordnet og udvidet styletile.
+
+
+                    </p>
+                </div>
+
+                <div class="col">
+                    <h3>Assetliste</h3>
+                    <img src="billeder/Assetliste.png" alt="Assetliste">
+                    <a href="http://oberes.one/kea/04_animation/spil/assets/"> Link til Assetliste</a>
+                </div>
+
+                <div class="col">
+                    <h3>Designdokumentation</h3>
+                    <embed src="pdf/spil_KennethOberesPetersen.pdf" type="application/pdf" width=100% height=550px>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <section id="Fourth_section">
+
+            <h2>Tema 4 - Animation</h2>
+            <div class="section_wrapper">
+                <div class="col">
+                    <h3>Individuelt spil</h3>
+                    <br>
+                    <p>Mit spil hedder Build the burger. <br>
+                        Under dette forløb skulle vi programmere vores helt eget spil fra bunden.
+                        <br><br>
+                        Her er der blevet implementeret HTML, CSS, Javascript og SVG filer.
+                        Jeg har også arbejdet med et statemachine diagram, hvilket er et hjælpeværktøj til hvordan ens JS skal stilles op.
+                        <br><br>
+                        Det jeg lærte i denne opgave er hvordan man bruger Javascript og et statemachine diagram. Javascript har helt klart været det mest udfordrende, men også mest spændende for mig.
+                    </p>
+                </div>
+
+                <div class="col">
+                    <h3>Build the burger</h3>
+                    <img src="billeder/Titelside.png" alt="">
+                    <img src="billeder/Baggrund.png" alt="">
+                    <a href="http://oberes.one/kea/04_animation/spil/Buildtheburger"> Link til spil</a>
+
+                </div>
+
+                <div class="col">
+                    <h3>Statemachine Diagram</h3>
+                    <embed src="pdf/Statemachine_Diagram.pdf" type="application/pdf" width=100% height=400px>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="fifth_section">
+
+            <h2>Tema 5 - Grundlæggende indhold</h2>
+            <div class="section_wrapper">
+                <div class="col">
+                    <h3>Pilotprojekt</h3>
+                    <br>
+                    <p>
+                        I dette pilotprojekt skulle jeg producere en kort video sammen med min gruppe. <br><br> Det skulle indeholde et interview med en person, der har en passion. Her skulle vi gøre brug af følgende teknikker; B-rolls, establishingshot, og selvfølgelig interview med over the shoulder mm. Vi arbejdede også med preproduktion i form af at lave synopsis, interviewguide og storyboard.
+                        <br><br>
+                        Vi skulle også lave vores egen ekstern lydoptagelse, hvilket vi selvfølgelig fik udført med en ekstern mikrofon, og derefter synkronisere billede og lyd.
+                        <br><br>
+                        I dette projekt lærte jeg mest om hvordan man redigerer i adobe premiere pro, og hvordan man redigerer lyd i audition, mest mht. støjreduktion.
+
+                    </p>
+                </div>
+
+                <div class="col">
+                    <h3>"Driverhuset"</h3>
+                    <video controls="">
+                        <source src="mp4/Driverhuset.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="sixth_section">
+
+            <h2>Tema 5 - Grundlæggende indhold</h2>
+            <div class="section_wrapper">
+                <div class="col">
+                    <h3>Redesign af hjemmeside</h3>
+                    <br>
+
+                    <p>
+                        I dette tema skulle vi lave et redesign af en selvvalgt virksomheds website. Det færdige resultat var en håndkodet responsiv website, indholdsproduktion i form at tekst, fotos, video og dokumentation om vores arbejde.
+                        <br><br>
+                        Da det var et gruppeprojekt lærte vi at gøre brug af scrumboard, burndownchart og github, hvilket har været rigtige gode hjælpemidler til at tracke og uddele vores arbejde som gruppe.
+                        <br><br>
+                        Vi fik gjort brug af forskellige analyse teknikker som; BERT test og 5-sekunders test. Derudover analyserede vi hele sitet mht. indholdsoversigt, funktionalitetsliste og wireframe.
+                        <br><br>
+                        For at udføre denne opgave er der blevet anført teknikker lært fra <br> Tema 2: Wireframe, moodbard, styletile, HTML&CSS <br> Tema 3: Interview teknikker & analyser <br> Tema 4: Javascript
+                    </p>
+                </div>
+
+                <div class="col">
+                    <h3>Sawasdee wellness' nuværende website</h3>
+                    <img src="billeder/Sawasdee_gammel.png" alt="Gammel Sawasdee website">
+                    <a href="https://www.sawasdeewellness.dk/index.html">Gå til website</a>
+                    <h3>Redesign</h3>
+                    <img src="billeder/Sawasdee_redesign.png" alt="">
+                    <a href="https://gallant-fermi-fba485.netlify.app/index.html">Gå til Redesign af website</a>
+
+                </div>
+
+                <div class="col">
+                    <h3>Dokumentation</h3>
+                    <embed src="pdf/05.03.01_redesign_og_temadokumentation.pdf" type="application/pdf" width=100% height=515px>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

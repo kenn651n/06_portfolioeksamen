@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oberes</title>
+    <link rel="stylesheet" href="om.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">🠕</button>
+
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
+        </script>
+
+
+        <nav>
+            <div class="logo">
+                <li>
+                    <a href="index.html">Oberes</a>
+                </li>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Forside</a>
+                </li>
+                <li>
+                    <a href="om.html">Om mig</a>
+                </li>
+                <li>
+                    <a href="Portfolio.html">Portfolie</a>
+                </li>
+
+
+            </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="first_section">
+            <div class="section_wrapper">
+                <div class="col">
+                    <img src="billeder/portrait.jpg" alt="Portrætbillede af Kenneth Oberes Petersen">
+                </div>
+                <div class="col">
+                    <h1>Kenneth Oberes Petersen</h1>
+                    <h3>"Kenny Oberes"</h3>
+                    <br><br>
+                    <p>Mit navn er Kenneth Oberes Petersen. Men de fleste kalder mig Kenny. <br><br> Jeg er 23 år, og studerer multimedie design på KEA, Københavns Erhvervs Akademi. <br><br> Efter at jeg er startet her på KEA, har jeg fået en god interesse indefor programmering. For mig er programmering noget jeg ser mig selv arbejde med i fremtiden, og stræber kun efter forbedring inde for faget. </p><br>
+                    <h2>
+                        Uddannelse
+                    </h2>
+                    <h3>Kolding HF&VUC</h3>
+                    <p><br>
+                        HF - Videregående uddannelse | <b>August 2016 - Juni 2018</b>
+                    </p>
+                    <p> <br>
+                        KEA - Multimedie Designer | <b> August 2020 - Igangværende</b>
+
+                    </p>
+                    <br><br>
+
+                    <h2>
+                        Skills
+                    </h2>
+                    <h3>Professionel</h3>
+                    <br>
+                    <p>
+
+                        <li>HTML & CSS</li>
+                        <li>Javascript</li>
+                        <li>Videoproduktion & redigering</li>
+                        <li>Grafisk design</li>
+
+                    </p>
+                    <br><br>
+                    <h3>Personlig</h3>
+                    <br>
+                    <p>
+
+                        <li>Motiveret</li>
+                        <li>Kreativ</li>
+                        <li>Effektiv</li>
+                        <li>Hårdt arbejdende teamplayer</li>
+                        <li>Organiseret</li>
+                        <li>Kreativ problemløser.</li>
+
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
