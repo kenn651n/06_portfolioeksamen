@@ -207,6 +207,12 @@ nav {
         grid-template-columns: 1fr;
     }
 
+    #second_section3 .section_wrapper {
+
+        grid-template-columns: 1fr;
+    }
+
+
 
 }
 
