@@ -100,12 +100,89 @@
                 </div>
             </div>
 
+            <div class="scroll_container">
+                <div class="scroll_ned"></div>
+                <div class="scroll_ned"></div>
+                <div class="scroll_ned"></div>
+            </div>
+
         </section>
+
+
+
+        <section id="om">
+            <div id="om_tekst">
+                <h3>Kort om mig</h3>
+                <div class="section_wrapper">
+
+                    <div class="col">
+                        <img src="billeder/portrait.jpg" alt="Portræt Kenny">
+                    </div>
+                    <div class="col">
+                        <h2>Kenneth Oberes Petersen</h2>
+                        <h4>"Kenny Oberes"</h4>
+                        <br><br>
+                        <p>Mit navn er Kenneth Oberes Petersen. Men de fleste kalder mig Kenny. <br><br> Jeg er 23 år, og studerer multimedie design på KEA, Københavns Erhvervs Akademi. <br><br> Efter at jeg er startet her på KEA, har jeg fået en god interesse indefor programmering. For mig er programmering noget jeg ser mig selv arbejde med i fremtiden, og stræber kun efter forbedring inde for faget. </p>
+                        <p></p>
+                        <a id="laes_mere" href="om.html">Læs mere</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h3>Portfolio</h3>
+            <div class="slideshow_container">
+
+                <div class="mySlides fade">
+                    <a href="web.html"><img src="billeder/Animation.png" style="width:100%" alt="Grundlæggende web"></a>
+                    <div class="text"><a href="web.html">Grundlæggende web</a></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="ux.html"><img src="billeder/Animation.png" style="width:100%" alt="Grundlæggende UX"></a>
+                    <div class="text"><a href="ux.html">Grundlæggende UX</a></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="animation.html"><img src="billeder/Animation.png" style="width:100%" alt="Grundlæggende animation"></a>
+                    <div class="text"><a href="animation.html">Grundlæggende animation</a></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <a href="indhold.html"><img src="billeder/Animation.png" style="width:100%" alt="Grundlæggende indhold"></a>
+                    <div class="text"><a href="indhold.html">Grundlæggende indhold</a></div>
+                </div>
+                <br>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            <div id="vis_alt">
+                <a id="hover_link" href="portfolio.html">Se hele portfolio</a>
+            </div>
+        </section>
+
+
     </main>
 
+    <footer>
+        <div id="footer_icons">
+            <a href="https://www.instagram.com/Kennyoberes/" target="blank" class="fa fa-instagram" style="font-size: 1.3em;"></a>
+            <a href="https://www.facebook.com/Kennyoberes/" target="blank" class="fa fa-facebook" style="font-size: 1.3em;"></a>
+        </div>
+
+        <p id="copyrights">© 2021 Kenneth Oberes Petersen</p>
+    </footer>
 
 
     <script src="javascript.js"></script>
-</body>
-
-</html>
+</body></html>
