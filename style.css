@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     overflow-x: hidden;
 }
 
-body {
+#site_wrapper {
+    position: relative;
     overflow-x: hidden;
 }
 
@@ -656,14 +658,6 @@ footer {
 
 @media screen and (max-width:768px) {
 
-    html {
-        overflow-x: hidden;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
     #om_tekst .section_wrapper {
         display: grid;
         grid-template-columns: 1fr;
@@ -691,6 +685,7 @@ footer {
         width: 50%;
         transform: translatex(100%);
         transition: transform 0.5s ease-in;
+        z-index: 100000;
 
     }
 
@@ -701,10 +696,9 @@ footer {
     .burger {
         display: block;
     }
-
-
-
 }
+
+
 
 .nav-active {
     transform: translateX(0%);

@@ -44,6 +44,7 @@ var navSlide = () => {
     burger.addEventListener('click', () => {
         //toogle nav
         nav.classList.toggle('nav-active');
+        nav.classList.remove('hidden');
 
         //animate links
         navLinks.forEach((link, index) => {

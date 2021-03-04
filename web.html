@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex" />
+    <title>Oberes</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div id="site_wrapper">
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
+        </script>
+
+        <header>
+
+            <nav>
+                <div class="logo">
+                    <ul>
+                        <li>
+                            <a href="index.html">Oberes</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="nav-links">
+
+                    <li>
+                        <a href="index.html">Forside</a>
+                    </li>
+                    <li>
+                        <a href="om.html">Om mig</a>
+                    </li>
+                    <li>
+                        <a href="Portfolio.html">Portfolie</a>
+                    </li>
+
+
+                </ul>
+
+
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+
+                </div>
+            </nav>
+
+        </header>
+
+
+        <main>
+
+            <section id="first_section">
+
+                <h2>Grundlæggende web</h2>
+
+                <div class="section_wrapper">
+
+                    <div class="col">
+                        <h3>Responsive site V2</h3>
+                        <br>
+                        <p>I tema 2 skulle vi arbejde med dette responsive site. Her lærte jeg hvordan man bruger diverse hjælpemidler som moodboard, styletile og wireframe. Her fik jeg udleveret stilenarten "videogame design".
+                            <br><br>
+                            Responsivt design betyder, at designet skal kunne tilpasse sig skærmstørrelsen, og se anderledes ud fra desktop og mobil. Hvilket vil sige at denne side er responsiv.
+                            <br><br>
+                            For mig har denne opgave været vigtig, for at ligge grundlaget for hvordan man opbygger et website og hvor vigtig planlægning er, før man begynder at kode det originale website.
+                            <br><br>
+                            Efter denne forberedningsprocessen med lære om en multimedie designers værktøjskasse, begyndte jeg at programmere websitet i HTML og CSS. Og det var her mine HTML og CSS egenskaber blev født.
+
+                        </p>
+                    </div>
+
+                    <div class="col">
+                        <h3> Responsive site</h3>
+                        <img src="billeder/Responsivesite_web.png" alt="Responsivesite">
+
+                        <img src="billeder/Responsivesite_mbile.png" alt="Responsivesite">
+                        <a href="http://oberes.one/kea/02_web/04_responsive/Responsive_site_v2/index.html"> Gå til Responsivesite_V2</a>
+                        <br>
+                        <a href="http://oberes.one/kea/02_web/04_responsive/Responsive_site_v2/styletile.html"> Gå til Styletile_V2</a>
+
+                    </div>
+
+                    <div class="col">
+                        <h3>Wireframe</h3>
+
+                        <embed src="pdf/02_01_03_content_til_dit_website_Kenneth_oberespetersen.pdf" type="application/pdf" width=350 height=550>
+
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+            <footer>
+                <p id="copyrights">© 2021 Kenneth Oberes Petersen</p>
+            </footer>
+
+    </div>
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>

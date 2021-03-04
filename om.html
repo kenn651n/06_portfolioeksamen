@@ -20,130 +20,132 @@
 </head>
 
 <body>
-    <header>
+    <div id="site_wrapper">
+        <header>
 
-        <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
 
-        <script>
-            //Get the button
-            var mybutton = document.getElementById("myBtn");
+            <script>
+                //Get the button
+                var mybutton = document.getElementById("myBtn");
 
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() {
-                scrollFunction()
-            };
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {
+                    scrollFunction()
+                };
 
-            function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    mybutton.style.display = "block";
-                } else {
-                    mybutton.style.display = "none";
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
                 }
-            }
 
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            }
-
-        </script>
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
 
 
-        <nav>
-            <div class="logo">
-                <ul>
+            <nav>
+                <div class="logo">
+                    <ul>
+                        <li>
+                            <a href="index.html">Oberes</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="nav-links">
+
                     <li>
-                        <a href="index.html">Oberes</a>
+                        <a href="index.html">Forside</a>
                     </li>
+                    <li>
+                        <a href="om.html">Om mig</a>
+                    </li>
+                    <li>
+                        <a href="Portfolio.html">Portfolie</a>
+                    </li>
+
+
                 </ul>
-            </div>
-            <ul class="nav-links">
 
-                <li>
-                    <a href="index.html">Forside</a>
-                </li>
-                <li>
-                    <a href="om.html">Om mig</a>
-                </li>
-                <li>
-                    <a href="Portfolio.html">Portfolie</a>
-                </li>
-
-
-            </ul>
-
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-
-            </div>
-        </nav>
-
-    </header>
-
-    <main>
-
-        <section id="first_section">
-            <div class="section_wrapper">
-                <div class="col">
-                    <img src="billeder/portrait.jpg" alt="Portrætbillede af Kenneth Oberes Petersen">
-                </div>
-                <div class="col">
-                    <h1>Kenneth Oberes Petersen</h1>
-                    <h3>"Kenny Oberes"</h3>
-                    <br><br>
-                    <p>Mit navn er Kenneth Oberes Petersen. Men de fleste kalder mig Kenny. <br><br> Jeg er 23 år, og studerer multimedie design på KEA, Københavns Erhvervs Akademi. <br><br> Efter at jeg er startet her på KEA, har jeg fået en god interesse indefor programmering. For mig er programmering noget jeg ser mig selv arbejde med i fremtiden, og stræber kun efter forbedring inde for faget. </p><br>
-                    <h2>
-                        Uddannelse
-                    </h2>
-                    <h3>Kolding HF&VUC</h3>
-                    <p><br>
-                        HF - Videregående uddannelse | <b>August 2016 - Juni 2018</b>
-                    </p>
-                    <p> <br>
-                        KEA - Multimedie Designer | <b> August 2020 - Igangværende</b>
-
-                    </p>
-                    <br><br>
-
-                    <h2>
-                        Skills
-                    </h2>
-                    <h3>Professionel</h3>
-                    <br>
-
-                    <ul>
-                        <li>HTML & CSS</li>
-                        <li>Javascript</li>
-                        <li>Videoproduktion & redigering</li>
-
-
-                    </ul>
-                    <br><br>
-                    <h3>Personlig</h3>
-                    <br>
-
-                    <ul>
-                        <li>Motiveret</li>
-                        <li>Kreativ</li>
-                        <li>Effektiv</li>
-                        <li>Hårdt arbejdende</li>
-                        <li>Organiseret</li>
-                        <li>Kreativ problemløser.</li>
-                    </ul>
-
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
 
                 </div>
-            </div>
+            </nav>
 
-        </section>
+        </header>
 
-    </main>
+        <main>
+
+            <section id="first_section">
+                <div class="section_wrapper">
+                    <div class="col">
+                        <img src="billeder/portrait.jpg" alt="Portrætbillede af Kenneth Oberes Petersen">
+                    </div>
+                    <div class="col">
+                        <h1>Kenneth Oberes Petersen</h1>
+                        <h3>"Kenny Oberes"</h3>
+                        <br><br>
+                        <p>Mit navn er Kenneth Oberes Petersen. Men de fleste kalder mig Kenny. <br><br> Jeg er 23 år, og studerer multimedie design på KEA, Københavns Erhvervs Akademi. <br><br> Efter at jeg er startet her på KEA, har jeg fået en god interesse indefor programmering. For mig er programmering noget jeg ser mig selv arbejde med i fremtiden, og stræber kun efter forbedring inde for faget. </p><br>
+                        <h2>
+                            Uddannelse
+                        </h2>
+                        <h3>Kolding HF&VUC</h3>
+                        <p><br>
+                            HF - Videregående uddannelse | <b>August 2016 - Juni 2018</b>
+                        </p>
+                        <p> <br>
+                            KEA - Multimedie Designer | <b> August 2020 - Igangværende</b>
+
+                        </p>
+                        <br><br>
+
+                        <h2>
+                            Skills
+                        </h2>
+                        <h3>Professionel</h3>
+                        <br>
+
+                        <ul>
+                            <li>HTML & CSS</li>
+                            <li>Javascript</li>
+                            <li>Videoproduktion & redigering</li>
 
 
+                        </ul>
+                        <br><br>
+                        <h3>Personlig</h3>
+                        <br>
+
+                        <ul>
+                            <li>Motiveret</li>
+                            <li>Kreativ</li>
+                            <li>Effektiv</li>
+                            <li>Hårdt arbejdende</li>
+                            <li>Organiseret</li>
+                            <li>Kreativ problemløser.</li>
+                        </ul>
+
+
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+        <footer>
+            <p id="copyrights">© 2021 Kenneth Oberes Petersen</p>
+        </footer>
+
+
+    </div>
     <script src="javascript.js"></script>
-</body>
-
-</html>
+</body></html>
