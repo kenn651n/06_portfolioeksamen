@@ -104,6 +104,19 @@ h1 {
     padding-top: 110px;
 }
 
+h4 {
+    color: black;
+    text-align: left;
+    position: relative;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 850px;
+    margin: auto;
+}
+
 img {
     width: 100%;
 }
@@ -212,10 +225,8 @@ h2 {
 
     }
 
-    .box {
-        margin-bottom: -200px;
-    }
 }
+
 
 @media screen and (max-width:1024px) {
     .nav-links {
